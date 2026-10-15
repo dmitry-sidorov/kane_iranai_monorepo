@@ -40,6 +40,7 @@ defmodule KaneIranaiMonorepo.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
+      {:inertia, "~> 3.0"},
       {:phoenix, "~> 1.8.15"},
       {:phoenix_ecto, "~> 4.5"},
       {:ecto_sql, "~> 3.13"},
@@ -80,7 +81,11 @@ defmodule KaneIranaiMonorepo.MixProject do
       "ecto.setup": ["ecto.create", "ecto.migrate", "run priv/repo/seeds.exs"],
       "ecto.reset": ["ecto.drop", "ecto.setup"],
       test: ["ecto.create --quiet", "ecto.migrate --quiet", "test"],
-      "assets.setup": ["tailwind.install --if-missing", "esbuild.install --if-missing"],
+      "assets.setup": [
+        "tailwind.install --if-missing",
+        "esbuild.install --if-missing",
+        "cmd --cd assets npm install"
+      ],
       "assets.build": ["compile", "tailwind kane_iranai_monorepo", "esbuild kane_iranai_monorepo"],
       "assets.deploy": [
         "tailwind kane_iranai_monorepo --minify",

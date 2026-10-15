@@ -2,7 +2,9 @@ defmodule KaneIranaiMonorepoWeb.ErrorJSONTest do
   use KaneIranaiMonorepoWeb.ConnCase, async: true
 
   test "renders 404" do
-    assert KaneIranaiMonorepoWeb.ErrorJSON.render("404.json", %{}) == %{errors: %{detail: "Not Found"}}
+    assert KaneIranaiMonorepoWeb.ErrorJSON.render("404.json", %{}) == %{
+             errors: %{detail: "Not Found"}
+           }
   end
 
   test "renders 500" do

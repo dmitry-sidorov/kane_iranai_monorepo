@@ -10,7 +10,8 @@ defmodule KaneIranaiMonorepo.Application do
     children = [
       KaneIranaiMonorepoWeb.Telemetry,
       KaneIranaiMonorepo.Repo,
-      {DNSCluster, query: Application.get_env(:kane_iranai_monorepo, :dns_cluster_query) || :ignore},
+      {DNSCluster,
+       query: Application.get_env(:kane_iranai_monorepo, :dns_cluster_query) || :ignore},
       {Phoenix.PubSub, name: KaneIranaiMonorepo.PubSub},
       # Start a worker by calling: KaneIranaiMonorepo.Worker.start_link(arg)
       # {KaneIranaiMonorepo.Worker, arg},

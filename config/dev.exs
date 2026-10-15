@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :kane_iranai_monorepo, KaneIranaiMonorepo.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "kane_iranai_monorepo",
+  password: "kane_iranai_monorepo",
   hostname: "localhost",
   database: "kane_iranai_monorepo_dev",
   stacktrace: true,

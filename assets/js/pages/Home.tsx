@@ -5,7 +5,7 @@ export default function Home() {
     <main>
       <h1>Welcome to Inertia.js + React</h1>
       <p>
-        This page is rendered from <code>assets/js/pages/Home.jsx</code>.
+        This page is rendered from <code>assets/js/pages/Home.tsx</code>.
       </p>
     </main>
   );

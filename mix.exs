@@ -65,7 +65,13 @@ defmodule KaneIranaiMonorepo.MixProject do
       {:gettext, "~> 1.0"},
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.2.0"},
-      {:bandit, "~> 1.5"}
+      {:bandit, "~> 1.5"},
+      {:guardian, "~> 2.4"},
+      {:guardian_db, "~> 3.0"},
+      {:bcrypt_elixir, "~> 3.3"},
+      {:dialyxir, "~> 1.4", only: [:dev, :test], runtime: false},
+      {:ecto_enum_migration, "~> 0.4.0"},
+      {:stream_data, "~> 1.0", only: :test}
     ]
   end
 

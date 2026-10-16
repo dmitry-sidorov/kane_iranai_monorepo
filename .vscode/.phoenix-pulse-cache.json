@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "timestamp": 1792094117984,
+  "timestamp": 1792157205210,
   "workspaceRoot": "/home/kvato/projects/kane_iranai_monorepo",
   "registries": {
     "components": {
@@ -262,7 +262,7 @@
               "name": "flash",
               "moduleName": "KaneIranaiMonorepoWeb.CoreComponents",
               "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/components/core_components.ex",
-              "line": 55,
+              "line": 51,
               "attributes": [
                 {
                   "name": "id",
@@ -315,43 +315,10 @@
               ]
             },
             {
-              "name": "button",
-              "moduleName": "KaneIranaiMonorepoWeb.CoreComponents",
-              "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/components/core_components.ex",
-              "line": 101,
-              "attributes": [
-                {
-                  "name": "rest",
-                  "type": "global",
-                  "rawType": ":global",
-                  "required": false
-                },
-                {
-                  "name": "class",
-                  "type": "any",
-                  "rawType": ":any",
-                  "required": false
-                },
-                {
-                  "name": "variant",
-                  "type": "string",
-                  "rawType": ":string",
-                  "required": false
-                }
-              ],
-              "slots": [
-                {
-                  "name": "inner_block",
-                  "required": true,
-                  "attributes": []
-                }
-              ]
-            },
-            {
               "name": "input",
               "moduleName": "KaneIranaiMonorepoWeb.CoreComponents",
               "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/components/core_components.ex",
-              "line": 200,
+              "line": 205,
               "attributes": [
                 {
                   "name": "options",
@@ -397,7 +364,7 @@
               "name": "error",
               "moduleName": "KaneIranaiMonorepoWeb.CoreComponents",
               "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/components/core_components.ex",
-              "line": 304,
+              "line": 320,
               "attributes": [],
               "slots": []
             },
@@ -405,7 +372,7 @@
               "name": "header",
               "moduleName": "KaneIranaiMonorepoWeb.CoreComponents",
               "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/components/core_components.ex",
-              "line": 320,
+              "line": 336,
               "attributes": [],
               "slots": [
                 {
@@ -429,7 +396,7 @@
               "name": "table",
               "moduleName": "KaneIranaiMonorepoWeb.CoreComponents",
               "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/components/core_components.ex",
-              "line": 361,
+              "line": 377,
               "attributes": [
                 {
                   "name": "id",
@@ -491,7 +458,7 @@
               "name": "list",
               "moduleName": "KaneIranaiMonorepoWeb.CoreComponents",
               "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/components/core_components.ex",
-              "line": 413,
+              "line": 433,
               "attributes": [],
               "slots": [
                 {
@@ -512,7 +479,7 @@
               "name": "icon",
               "moduleName": "KaneIranaiMonorepoWeb.CoreComponents",
               "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/components/core_components.ex",
-              "line": 447,
+              "line": 467,
               "attributes": [
                 {
                   "name": "name",
@@ -567,7 +534,7 @@
               "name": "flash_group",
               "moduleName": "KaneIranaiMonorepoWeb.Layouts",
               "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/components/layouts.ex",
-              "line": 85,
+              "line": 95,
               "attributes": [
                 {
                   "name": "flash",
@@ -586,14 +553,6 @@
                 }
               ],
               "slots": []
-            },
-            {
-              "name": "theme_toggle",
-              "moduleName": "KaneIranaiMonorepoWeb.Layouts",
-              "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/components/layouts.ex",
-              "line": 99,
-              "attributes": [],
-              "slots": []
             }
           ]
         ],
@@ -604,36 +563,857 @@
         [
           "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/page_html.ex",
           []
-        ],
-        [
-          "/home/kvato/projects/kane_iranai_monorepo/mix.exs",
-          []
         ]
       ],
       "fileHashes": {
-        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/components/core_components.ex": "9451c0f0d632a9cebdea56f5ea6866910f7b4f16",
-        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/components/layouts.ex": "5700eed998508c62b8d6f8f12656ed0eb8d02b5c",
+        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/components/core_components.ex": "14697f525055bc68984447f2de301ec20d0a5621",
+        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/components/layouts.ex": "f6eddd8218d0eddf88a1cfea29b8727ab95a20b6",
         "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/error_html.ex": "dd7cb3a377c8065ec35d169aaaf2ce1556c26671",
-        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/page_html.ex": "dddb61b0e353aba417bd300270ed1d1a14ccc4ad",
-        "/home/kvato/projects/kane_iranai_monorepo/mix.exs": "f179263582d82fea12b7d0f38cfca2a2d46a2c24"
+        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/page_html.ex": "dddb61b0e353aba417bd300270ed1d1a14ccc4ad"
       },
       "workspaceRoot": "/home/kvato/projects/kane_iranai_monorepo"
     },
     "schemas": {
-      "schemas": [],
-      "schemasByFile": [],
-      "fileHashes": {},
+      "schemas": [
+        [
+          "KaneIranaiMonorepo.BudgetPlans.BudgetPlan",
+          {
+            "moduleName": "KaneIranaiMonorepo.BudgetPlans.BudgetPlan",
+            "tableName": "budget_plans",
+            "fields": [
+              {
+                "name": "id",
+                "type": "id"
+              },
+              {
+                "name": "start_date",
+                "type": "naive_datetime"
+              },
+              {
+                "name": "period_in_days",
+                "type": "integer"
+              },
+              {
+                "name": "description",
+                "type": "string"
+              },
+              {
+                "name": "user",
+                "type": "assoc",
+                "elixirType": "KaneIranaiMonorepo.Users.User"
+              },
+              {
+                "name": "planned_operations",
+                "type": "list",
+                "elixirType": "KaneIranaiMonorepo.PlannedOperations.PlannedOperation"
+              },
+              {
+                "name": "inserted_at",
+                "type": "naive_datetime"
+              },
+              {
+                "name": "updated_at",
+                "type": "naive_datetime"
+              }
+            ],
+            "associations": {},
+            "associationsDetailed": [],
+            "aliases": {},
+            "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/budget_plans/budget_plan.ex",
+            "line": 10
+          }
+        ],
+        [
+          "KaneIranaiMonorepo.Currencies.Currency",
+          {
+            "moduleName": "KaneIranaiMonorepo.Currencies.Currency",
+            "tableName": "currencies",
+            "fields": [
+              {
+                "name": "id",
+                "type": "id"
+              },
+              {
+                "name": "title",
+                "type": "string"
+              },
+              {
+                "name": "debit_accounts",
+                "type": "list",
+                "elixirType": "KaneIranaiMonorepo.DebitAccounts.DebitAccount"
+              },
+              {
+                "name": "inserted_at",
+                "type": "naive_datetime"
+              },
+              {
+                "name": "updated_at",
+                "type": "naive_datetime"
+              }
+            ],
+            "associations": {},
+            "associationsDetailed": [],
+            "aliases": {},
+            "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/currencies/currency.ex",
+            "line": 9
+          }
+        ],
+        [
+          "KaneIranaiMonorepo.DebitAccounts.DebitAccount",
+          {
+            "moduleName": "KaneIranaiMonorepo.DebitAccounts.DebitAccount",
+            "tableName": "debit_accounts",
+            "fields": [
+              {
+                "name": "id",
+                "type": "id"
+              },
+              {
+                "name": "title",
+                "type": "string"
+              },
+              {
+                "name": "amount",
+                "type": "integer"
+              },
+              {
+                "name": "currency",
+                "type": "assoc",
+                "elixirType": "KaneIranaiMonorepo.Currencies.Currency"
+              },
+              {
+                "name": "user",
+                "type": "assoc",
+                "elixirType": "KaneIranaiMonorepo.Users.User"
+              },
+              {
+                "name": "operations",
+                "type": "list",
+                "elixirType": "KaneIranaiMonorepo.Operations.Operation"
+              },
+              {
+                "name": "inserted_at",
+                "type": "naive_datetime"
+              },
+              {
+                "name": "updated_at",
+                "type": "naive_datetime"
+              }
+            ],
+            "associations": {},
+            "associationsDetailed": [],
+            "aliases": {},
+            "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/debit_accounts/debit_account.ex",
+            "line": 11
+          }
+        ],
+        [
+          "KaneIranaiMonorepo.OperationCategories.OperationCategory",
+          {
+            "moduleName": "KaneIranaiMonorepo.OperationCategories.OperationCategory",
+            "tableName": "operation_categories",
+            "fields": [
+              {
+                "name": "id",
+                "type": "id"
+              },
+              {
+                "name": "title",
+                "type": "string"
+              },
+              {
+                "name": "operations",
+                "type": "list",
+                "elixirType": "KaneIranaiMonorepo.Operations.Operation"
+              },
+              {
+                "name": "planned_operations",
+                "type": "list",
+                "elixirType": "KaneIranaiMonorepo.PlannedOperations.PlannedOperation"
+              },
+              {
+                "name": "inserted_at",
+                "type": "naive_datetime"
+              },
+              {
+                "name": "updated_at",
+                "type": "naive_datetime"
+              }
+            ],
+            "associations": {},
+            "associationsDetailed": [],
+            "aliases": {},
+            "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/operation_categories/operation_category.ex",
+            "line": 15
+          }
+        ],
+        [
+          "KaneIranaiMonorepo.Operations.Operation",
+          {
+            "moduleName": "KaneIranaiMonorepo.Operations.Operation",
+            "tableName": "operations",
+            "fields": [
+              {
+                "name": "id",
+                "type": "id"
+              },
+              {
+                "name": "amount",
+                "type": "integer"
+              },
+              {
+                "name": "description",
+                "type": "string"
+              },
+              {
+                "name": "processed_at",
+                "type": "naive_datetime"
+              },
+              {
+                "name": "user",
+                "type": "assoc",
+                "elixirType": "KaneIranaiMonorepo.Users.User"
+              },
+              {
+                "name": "debit_account",
+                "type": "assoc",
+                "elixirType": "KaneIranaiMonorepo.DebitAccounts.DebitAccount"
+              },
+              {
+                "name": "operation_category",
+                "type": "assoc",
+                "elixirType": "KaneIranaiMonorepo.OperationCategories.OperationCategory"
+              },
+              {
+                "name": "inserted_at",
+                "type": "naive_datetime"
+              },
+              {
+                "name": "updated_at",
+                "type": "naive_datetime"
+              }
+            ],
+            "associations": {},
+            "associationsDetailed": [],
+            "aliases": {},
+            "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/operations/operation.ex",
+            "line": 14
+          }
+        ],
+        [
+          "KaneIranaiMonorepo.OperationsLinks.OperationsLink",
+          {
+            "moduleName": "KaneIranaiMonorepo.OperationsLinks.OperationsLink",
+            "tableName": "operations_links",
+            "fields": [
+              {
+                "name": "id",
+                "type": "id"
+              },
+              {
+                "name": "operation",
+                "type": "assoc",
+                "elixirType": "KaneIranaiMonorepo.Operations.Operation"
+              },
+              {
+                "name": "planned_operation",
+                "type": "assoc",
+                "elixirType": "KaneIranaiMonorepo.PlannedOperations.PlannedOperation"
+              },
+              {
+                "name": "inserted_at",
+                "type": "naive_datetime"
+              },
+              {
+                "name": "updated_at",
+                "type": "naive_datetime"
+              }
+            ],
+            "associations": {},
+            "associationsDetailed": [],
+            "aliases": {},
+            "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/operations_links/operations_link.ex",
+            "line": 10
+          }
+        ],
+        [
+          "KaneIranaiMonorepo.PlannedOperations.PlannedOperation",
+          {
+            "moduleName": "KaneIranaiMonorepo.PlannedOperations.PlannedOperation",
+            "tableName": "planned_operations",
+            "fields": [
+              {
+                "name": "id",
+                "type": "id"
+              },
+              {
+                "name": "amount",
+                "type": "integer"
+              },
+              {
+                "name": "budget_plan",
+                "type": "assoc",
+                "elixirType": "KaneIranaiMonorepo.BudgetPlans.BudgetPlan"
+              },
+              {
+                "name": "operation_category",
+                "type": "assoc",
+                "elixirType": "KaneIranaiMonorepo.OperationCategories.OperationCategory"
+              },
+              {
+                "name": "inserted_at",
+                "type": "naive_datetime"
+              },
+              {
+                "name": "updated_at",
+                "type": "naive_datetime"
+              }
+            ],
+            "associations": {},
+            "associationsDetailed": [],
+            "aliases": {},
+            "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/planned_operations/planned_operation.ex",
+            "line": 14
+          }
+        ],
+        [
+          "KaneIranaiMonorepo.UserOperationCategories.UserOperationCategory",
+          {
+            "moduleName": "KaneIranaiMonorepo.UserOperationCategories.UserOperationCategory",
+            "tableName": "user_operation_categories",
+            "fields": [
+              {
+                "name": "id",
+                "type": "id"
+              },
+              {
+                "name": "user",
+                "type": "assoc",
+                "elixirType": "KaneIranaiMonorepo.Users.User"
+              },
+              {
+                "name": "operation_category",
+                "type": "assoc",
+                "elixirType": "KaneIranaiMonorepo.OperationCategories.OperationCategory"
+              },
+              {
+                "name": "inserted_at",
+                "type": "naive_datetime"
+              },
+              {
+                "name": "updated_at",
+                "type": "naive_datetime"
+              }
+            ],
+            "associations": {},
+            "associationsDetailed": [],
+            "aliases": {},
+            "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/user_operation_categories/user_operation_category.ex",
+            "line": 10
+          }
+        ],
+        [
+          "KaneIranaiMonorepo.Users.User",
+          {
+            "moduleName": "KaneIranaiMonorepo.Users.User",
+            "tableName": "users",
+            "fields": [
+              {
+                "name": "id",
+                "type": "id"
+              },
+              {
+                "name": "email",
+                "type": "string"
+              },
+              {
+                "name": "hash_password",
+                "type": "string"
+              },
+              {
+                "name": "username",
+                "type": "string"
+              },
+              {
+                "name": "first_name",
+                "type": "string"
+              },
+              {
+                "name": "last_name",
+                "type": "string"
+              },
+              {
+                "name": "debit_accounts",
+                "type": "list",
+                "elixirType": "KaneIranaiMonorepo.DebitAccounts.DebitAccount"
+              },
+              {
+                "name": "operations",
+                "type": "list",
+                "elixirType": "KaneIranaiMonorepo.Operations.Operation"
+              },
+              {
+                "name": "budget_plans",
+                "type": "list",
+                "elixirType": "KaneIranaiMonorepo.BudgetPlans.BudgetPlan"
+              },
+              {
+                "name": "inserted_at",
+                "type": "naive_datetime"
+              },
+              {
+                "name": "updated_at",
+                "type": "naive_datetime"
+              }
+            ],
+            "associations": {},
+            "associationsDetailed": [],
+            "aliases": {},
+            "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/users/user.ex",
+            "line": 13
+          }
+        ]
+      ],
+      "schemasByFile": [
+        [
+          "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/budget_plans/budget_plan.ex",
+          [
+            {
+              "moduleName": "KaneIranaiMonorepo.BudgetPlans.BudgetPlan",
+              "tableName": "budget_plans",
+              "fields": [
+                {
+                  "name": "id",
+                  "type": "id"
+                },
+                {
+                  "name": "start_date",
+                  "type": "naive_datetime"
+                },
+                {
+                  "name": "period_in_days",
+                  "type": "integer"
+                },
+                {
+                  "name": "description",
+                  "type": "string"
+                },
+                {
+                  "name": "user",
+                  "type": "assoc",
+                  "elixirType": "KaneIranaiMonorepo.Users.User"
+                },
+                {
+                  "name": "planned_operations",
+                  "type": "list",
+                  "elixirType": "KaneIranaiMonorepo.PlannedOperations.PlannedOperation"
+                },
+                {
+                  "name": "inserted_at",
+                  "type": "naive_datetime"
+                },
+                {
+                  "name": "updated_at",
+                  "type": "naive_datetime"
+                }
+              ],
+              "associations": {},
+              "associationsDetailed": [],
+              "aliases": {},
+              "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/budget_plans/budget_plan.ex",
+              "line": 10
+            }
+          ]
+        ],
+        [
+          "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/currencies/currency.ex",
+          [
+            {
+              "moduleName": "KaneIranaiMonorepo.Currencies.Currency",
+              "tableName": "currencies",
+              "fields": [
+                {
+                  "name": "id",
+                  "type": "id"
+                },
+                {
+                  "name": "title",
+                  "type": "string"
+                },
+                {
+                  "name": "debit_accounts",
+                  "type": "list",
+                  "elixirType": "KaneIranaiMonorepo.DebitAccounts.DebitAccount"
+                },
+                {
+                  "name": "inserted_at",
+                  "type": "naive_datetime"
+                },
+                {
+                  "name": "updated_at",
+                  "type": "naive_datetime"
+                }
+              ],
+              "associations": {},
+              "associationsDetailed": [],
+              "aliases": {},
+              "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/currencies/currency.ex",
+              "line": 9
+            }
+          ]
+        ],
+        [
+          "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/debit_accounts/debit_account.ex",
+          [
+            {
+              "moduleName": "KaneIranaiMonorepo.DebitAccounts.DebitAccount",
+              "tableName": "debit_accounts",
+              "fields": [
+                {
+                  "name": "id",
+                  "type": "id"
+                },
+                {
+                  "name": "title",
+                  "type": "string"
+                },
+                {
+                  "name": "amount",
+                  "type": "integer"
+                },
+                {
+                  "name": "currency",
+                  "type": "assoc",
+                  "elixirType": "KaneIranaiMonorepo.Currencies.Currency"
+                },
+                {
+                  "name": "user",
+                  "type": "assoc",
+                  "elixirType": "KaneIranaiMonorepo.Users.User"
+                },
+                {
+                  "name": "operations",
+                  "type": "list",
+                  "elixirType": "KaneIranaiMonorepo.Operations.Operation"
+                },
+                {
+                  "name": "inserted_at",
+                  "type": "naive_datetime"
+                },
+                {
+                  "name": "updated_at",
+                  "type": "naive_datetime"
+                }
+              ],
+              "associations": {},
+              "associationsDetailed": [],
+              "aliases": {},
+              "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/debit_accounts/debit_account.ex",
+              "line": 11
+            }
+          ]
+        ],
+        [
+          "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/operation_categories/operation_category.ex",
+          [
+            {
+              "moduleName": "KaneIranaiMonorepo.OperationCategories.OperationCategory",
+              "tableName": "operation_categories",
+              "fields": [
+                {
+                  "name": "id",
+                  "type": "id"
+                },
+                {
+                  "name": "title",
+                  "type": "string"
+                },
+                {
+                  "name": "operations",
+                  "type": "list",
+                  "elixirType": "KaneIranaiMonorepo.Operations.Operation"
+                },
+                {
+                  "name": "planned_operations",
+                  "type": "list",
+                  "elixirType": "KaneIranaiMonorepo.PlannedOperations.PlannedOperation"
+                },
+                {
+                  "name": "inserted_at",
+                  "type": "naive_datetime"
+                },
+                {
+                  "name": "updated_at",
+                  "type": "naive_datetime"
+                }
+              ],
+              "associations": {},
+              "associationsDetailed": [],
+              "aliases": {},
+              "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/operation_categories/operation_category.ex",
+              "line": 15
+            }
+          ]
+        ],
+        [
+          "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/operations/operation.ex",
+          [
+            {
+              "moduleName": "KaneIranaiMonorepo.Operations.Operation",
+              "tableName": "operations",
+              "fields": [
+                {
+                  "name": "id",
+                  "type": "id"
+                },
+                {
+                  "name": "amount",
+                  "type": "integer"
+                },
+                {
+                  "name": "description",
+                  "type": "string"
+                },
+                {
+                  "name": "processed_at",
+                  "type": "naive_datetime"
+                },
+                {
+                  "name": "user",
+                  "type": "assoc",
+                  "elixirType": "KaneIranaiMonorepo.Users.User"
+                },
+                {
+                  "name": "debit_account",
+                  "type": "assoc",
+                  "elixirType": "KaneIranaiMonorepo.DebitAccounts.DebitAccount"
+                },
+                {
+                  "name": "operation_category",
+                  "type": "assoc",
+                  "elixirType": "KaneIranaiMonorepo.OperationCategories.OperationCategory"
+                },
+                {
+                  "name": "inserted_at",
+                  "type": "naive_datetime"
+                },
+                {
+                  "name": "updated_at",
+                  "type": "naive_datetime"
+                }
+              ],
+              "associations": {},
+              "associationsDetailed": [],
+              "aliases": {},
+              "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/operations/operation.ex",
+              "line": 14
+            }
+          ]
+        ],
+        [
+          "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/operations_links/operations_link.ex",
+          [
+            {
+              "moduleName": "KaneIranaiMonorepo.OperationsLinks.OperationsLink",
+              "tableName": "operations_links",
+              "fields": [
+                {
+                  "name": "id",
+                  "type": "id"
+                },
+                {
+                  "name": "operation",
+                  "type": "assoc",
+                  "elixirType": "KaneIranaiMonorepo.Operations.Operation"
+                },
+                {
+                  "name": "planned_operation",
+                  "type": "assoc",
+                  "elixirType": "KaneIranaiMonorepo.PlannedOperations.PlannedOperation"
+                },
+                {
+                  "name": "inserted_at",
+                  "type": "naive_datetime"
+                },
+                {
+                  "name": "updated_at",
+                  "type": "naive_datetime"
+                }
+              ],
+              "associations": {},
+              "associationsDetailed": [],
+              "aliases": {},
+              "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/operations_links/operations_link.ex",
+              "line": 10
+            }
+          ]
+        ],
+        [
+          "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/planned_operations/planned_operation.ex",
+          [
+            {
+              "moduleName": "KaneIranaiMonorepo.PlannedOperations.PlannedOperation",
+              "tableName": "planned_operations",
+              "fields": [
+                {
+                  "name": "id",
+                  "type": "id"
+                },
+                {
+                  "name": "amount",
+                  "type": "integer"
+                },
+                {
+                  "name": "budget_plan",
+                  "type": "assoc",
+                  "elixirType": "KaneIranaiMonorepo.BudgetPlans.BudgetPlan"
+                },
+                {
+                  "name": "operation_category",
+                  "type": "assoc",
+                  "elixirType": "KaneIranaiMonorepo.OperationCategories.OperationCategory"
+                },
+                {
+                  "name": "inserted_at",
+                  "type": "naive_datetime"
+                },
+                {
+                  "name": "updated_at",
+                  "type": "naive_datetime"
+                }
+              ],
+              "associations": {},
+              "associationsDetailed": [],
+              "aliases": {},
+              "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/planned_operations/planned_operation.ex",
+              "line": 14
+            }
+          ]
+        ],
+        [
+          "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/user_operation_categories/user_operation_category.ex",
+          [
+            {
+              "moduleName": "KaneIranaiMonorepo.UserOperationCategories.UserOperationCategory",
+              "tableName": "user_operation_categories",
+              "fields": [
+                {
+                  "name": "id",
+                  "type": "id"
+                },
+                {
+                  "name": "user",
+                  "type": "assoc",
+                  "elixirType": "KaneIranaiMonorepo.Users.User"
+                },
+                {
+                  "name": "operation_category",
+                  "type": "assoc",
+                  "elixirType": "KaneIranaiMonorepo.OperationCategories.OperationCategory"
+                },
+                {
+                  "name": "inserted_at",
+                  "type": "naive_datetime"
+                },
+                {
+                  "name": "updated_at",
+                  "type": "naive_datetime"
+                }
+              ],
+              "associations": {},
+              "associationsDetailed": [],
+              "aliases": {},
+              "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/user_operation_categories/user_operation_category.ex",
+              "line": 10
+            }
+          ]
+        ],
+        [
+          "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/users/user.ex",
+          [
+            {
+              "moduleName": "KaneIranaiMonorepo.Users.User",
+              "tableName": "users",
+              "fields": [
+                {
+                  "name": "id",
+                  "type": "id"
+                },
+                {
+                  "name": "email",
+                  "type": "string"
+                },
+                {
+                  "name": "hash_password",
+                  "type": "string"
+                },
+                {
+                  "name": "username",
+                  "type": "string"
+                },
+                {
+                  "name": "first_name",
+                  "type": "string"
+                },
+                {
+                  "name": "last_name",
+                  "type": "string"
+                },
+                {
+                  "name": "debit_accounts",
+                  "type": "list",
+                  "elixirType": "KaneIranaiMonorepo.DebitAccounts.DebitAccount"
+                },
+                {
+                  "name": "operations",
+                  "type": "list",
+                  "elixirType": "KaneIranaiMonorepo.Operations.Operation"
+                },
+                {
+                  "name": "budget_plans",
+                  "type": "list",
+                  "elixirType": "KaneIranaiMonorepo.BudgetPlans.BudgetPlan"
+                },
+                {
+                  "name": "inserted_at",
+                  "type": "naive_datetime"
+                },
+                {
+                  "name": "updated_at",
+                  "type": "naive_datetime"
+                }
+              ],
+              "associations": {},
+              "associationsDetailed": [],
+              "aliases": {},
+              "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/users/user.ex",
+              "line": 13
+            }
+          ]
+        ]
+      ],
+      "fileHashes": {
+        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/budget_plans/budget_plan.ex": "81ba271bbb233738d8f3b75ce1bb76035ea1768d",
+        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/currencies/currency.ex": "bf721b06eb1f0c6fbbd65503cfa25d65cf47873f",
+        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/debit_accounts/debit_account.ex": "fd16f2b75b71758e14634b172fa155ee4b617ed5",
+        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/operation_categories/operation_category.ex": "9e65628438a62cc2f26807d5d2ca111141c4d2b3",
+        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/operations/operation.ex": "5e3862d40488a78b40a3dec2385741949a7933be",
+        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/operations_links/operations_link.ex": "c1272b17ce8e1b25f3eb5554893c270744741d0f",
+        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/planned_operations/planned_operation.ex": "dc430eab09993cbeee6b13976d0c0686326f0461",
+        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/user_operation_categories/user_operation_category.ex": "740e6b26816d0867da688fbee4cc14058fc95613",
+        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo/users/user.ex": "8ff8e668c813207c3acfd945513728b5ab5669cf"
+      },
       "workspaceRoot": "/home/kvato/projects/kane_iranai_monorepo"
     },
     "events": {
       "events": [
         [
-          "/home/kvato/projects/kane_iranai_monorepo/mix.exs",
+          "/home/kvato/projects/kane_iranai_monorepo/priv/repo/seeds.exs",
           []
         ]
       ],
       "fileHashes": {
-        "/home/kvato/projects/kane_iranai_monorepo/mix.exs": "f179263582d82fea12b7d0f38cfca2a2d46a2c24"
+        "/home/kvato/projects/kane_iranai_monorepo/priv/repo/seeds.exs": "6258a1b75218e80be6be8498e575c4596216a258"
       },
       "workspaceRoot": "/home/kvato/projects/kane_iranai_monorepo"
     },
@@ -643,19 +1423,119 @@
           "verb": "GET",
           "path": "/",
           "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/router.ex",
-          "line": 20,
+          "line": 28,
           "controller": "PageController",
           "action": "home",
           "helperBase": "root",
           "params": [],
-          "isResource": false,
-          "pipeline": "browser"
+          "isResource": false
+        },
+        {
+          "verb": "POST",
+          "path": "/users/create",
+          "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/router.ex",
+          "line": 30,
+          "controller": "UserController",
+          "action": "create",
+          "helperBase": "user_create",
+          "params": [],
+          "isResource": false
+        },
+        {
+          "verb": "POST",
+          "path": "/users/sign_in",
+          "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/router.ex",
+          "line": 31,
+          "controller": "UserController",
+          "action": "sign_in",
+          "helperBase": "user_sign_in",
+          "params": [],
+          "isResource": false
+        },
+        {
+          "verb": "GET",
+          "path": "/users/by_id/:id",
+          "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/router.ex",
+          "line": 36,
+          "controller": "UserController",
+          "action": "show",
+          "helperBase": "user_by_id",
+          "params": [
+            "id"
+          ],
+          "isResource": false
+        },
+        {
+          "verb": "GET",
+          "path": "/users/current_user",
+          "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/router.ex",
+          "line": 37,
+          "controller": "UserController",
+          "action": "current_user",
+          "helperBase": "user_current_user",
+          "params": [],
+          "isResource": false
+        },
+        {
+          "verb": "GET",
+          "path": "/users/sign_out",
+          "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/router.ex",
+          "line": 38,
+          "controller": "UserController",
+          "action": "sign_out",
+          "helperBase": "user_sign_out",
+          "params": [],
+          "isResource": false
+        },
+        {
+          "verb": "GET",
+          "path": "/users/refresh_session",
+          "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/router.ex",
+          "line": 39,
+          "controller": "UserController",
+          "action": "refresh_session",
+          "helperBase": "user_refresh_session",
+          "params": [],
+          "isResource": false
+        },
+        {
+          "verb": "PUT",
+          "path": "/users/update",
+          "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/router.ex",
+          "line": 40,
+          "controller": "UserController",
+          "action": "update",
+          "helperBase": "user_update",
+          "params": [],
+          "isResource": false
+        },
+        {
+          "verb": "DELETE",
+          "path": "/users/delete",
+          "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/router.ex",
+          "line": 41,
+          "controller": "UserController",
+          "action": "delete",
+          "helperBase": "user_delete",
+          "params": [],
+          "isResource": false
+        },
+        {
+          "verb": "GET",
+          "path": "/plans",
+          "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/router.ex",
+          "line": 43,
+          "controller": "BudgetPlanController",
+          "action": "index",
+          "helperBase": "plan",
+          "params": [],
+          "isResource": false
         },
         {
           "verb": "FORWARD",
           "path": "/dev/mailbox",
           "filePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/router.ex",
-          "line": 34,
+          "line": 56,
           "forwardTo": "Plug.Swoosh.MailboxPreview",
           "helperBase": "mailbox",
           "params": [],
@@ -665,53 +1545,185 @@
         }
       ],
       "fileHashes": {
-        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/router.ex": "60f1641412b372b1f0b322f0c7f4c09b82c8b89f"
+        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/router.ex": "ccb6983537746e1392260f5e243aa4ea3dd78ee1"
       },
       "workspaceRoot": "/home/kvato/projects/kane_iranai_monorepo"
     },
     "controllers": {
       "rendersByFile": [
         [
-          "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/page_controller.ex",
+          "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/budget_plan_controller.ex",
           [
             {
-              "controllerModule": "KaneIranaiMonorepoWeb.PageController",
-              "controllerFile": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/page_controller.ex",
-              "action": "home",
-              "templateName": "home",
+              "controllerModule": "KaneIranaiMonorepoWeb.BudgetPlanController",
+              "controllerFile": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/budget_plan_controller.ex",
+              "action": "index",
+              "templateName": "index",
+              "assigns": [
+                "budget_plans"
+              ],
+              "assignsWithTypes": [
+                {
+                  "name": "budget_plans",
+                  "variableName": "budget_plans",
+                  "typeInfo": {
+                    "kind": "list",
+                    "innerType": {
+                      "kind": "struct",
+                      "module": "BudgetPlans.BudgetPlan"
+                    }
+                  }
+                }
+              ],
+              "actionBody": "  def index(conn, _params) do\n    budget_plans = BudgetPlans.list_budget_plans()\n    render(conn, :index, budget_plans: budget_plans)\n  end",
+              "line": 12
+            }
+          ]
+        ],
+        [
+          "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/default_controller.ex",
+          []
+        ],
+        [
+          "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/fallback_controller.ex",
+          [
+            {
+              "controllerModule": "KaneIranaiMonorepoWeb.FallbackController",
+              "controllerFile": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/fallback_controller.ex",
+              "action": "call",
+              "templateName": "changeset: changeset",
               "assigns": [],
               "assignsWithTypes": [],
-              "actionBody": "  def home(conn, _params) do\n    render(conn, :home)\n  end",
-              "line": 5,
-              "templatePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/page_html/home.html.heex"
+              "actionBody": "  def call(conn, {:error, :not_found}) do\n    conn\n    |> put_status(:not_found)\n    |> put_view(html: KaneIranaiMonorepoWeb.ErrorHTML, json: KaneIranaiMonorepoWeb.ErrorJSON)\n    |> render(:\"404\")\n  end",
+              "line": 14
+            }
+          ]
+        ],
+        [
+          "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/page_controller.ex",
+          []
+        ],
+        [
+          "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/redirect_controller.ex",
+          []
+        ],
+        [
+          "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/user_controller.ex",
+          [
+            {
+              "controllerModule": "KaneIranaiMonorepoWeb.UserController",
+              "controllerFile": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/user_controller.ex",
+              "action": "index",
+              "templateName": "index",
+              "assigns": [
+                "users"
+              ],
+              "assignsWithTypes": [
+                {
+                  "name": "users",
+                  "variableName": "users",
+                  "typeInfo": {
+                    "kind": "list",
+                    "innerType": {
+                      "kind": "struct",
+                      "module": "Users.User"
+                    }
+                  }
+                }
+              ],
+              "actionBody": "  def index(conn, _params) do\n    users = Users.list_users()\n    render(conn, :index, users: users)\n  end",
+              "line": 14
+            },
+            {
+              "controllerModule": "KaneIranaiMonorepoWeb.UserController",
+              "controllerFile": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/user_controller.ex",
+              "action": "authorize_user",
+              "templateName": "%{user: user, token: token}",
+              "assigns": [],
+              "assignsWithTypes": [],
+              "actionBody": "  defp authorize_user(conn, email, password) do\n    case Guardian.authenticate(email, password) do\n      {:ok, user, token} ->\n        conn\n        |> Plug.Conn.put_session(:user_id, user.id)\n        |> put_status(:ok)\n        |> render(:user_token, %{user: user, token: token})\n      {:error, :unathorized} -> raise ErrorResponse.Unathorized, message: \"Email or password incorrect!\"\n    end\n  end",
+              "line": 34
+            },
+            {
+              "controllerModule": "KaneIranaiMonorepoWeb.UserController",
+              "controllerFile": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/user_controller.ex",
+              "action": "sign_out",
+              "templateName": "%{user: user, token: nil}",
+              "assigns": [],
+              "assignsWithTypes": [],
+              "actionBody": "  def sign_out(conn, %{}) do\n    user = conn.assigns[:user]\n    token = Guardian.Plug.current_token(conn)\n    Guardian.revoke(token)\n    conn\n    |> Plug.Conn.clear_session()\n    |> put_status(:ok)\n    |> render(\"user_token.json\", %{user: user, token: nil})\n  end",
+              "line": 46
+            },
+            {
+              "controllerModule": "KaneIranaiMonorepoWeb.UserController",
+              "controllerFile": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/user_controller.ex",
+              "action": "refresh_session",
+              "templateName": "%{user: user, token: token}",
+              "assigns": [],
+              "assignsWithTypes": [],
+              "actionBody": "  def refresh_session(conn, %{}) do\n    current_token = Guardian.Plug.current_token(conn)\n    {:ok, user, token} = Guardian.authenticate(current_token)\n\n    conn\n    |> Plug.Conn.put_session(:user_id, user.id)\n    |> put_status(:ok)\n    |> render(\"user_token.json\", %{user: user, token: token})\n  end",
+              "line": 57
+            },
+            {
+              "controllerModule": "KaneIranaiMonorepoWeb.UserController",
+              "controllerFile": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/user_controller.ex",
+              "action": "show",
+              "templateName": "show",
+              "assigns": [
+                "user"
+              ],
+              "assignsWithTypes": [
+                {
+                  "name": "user",
+                  "variableName": "user",
+                  "typeInfo": {
+                    "kind": "struct",
+                    "module": "Users.User"
+                  }
+                }
+              ],
+              "actionBody": "  def show(conn, %{\"id\" => id}) do\n    user = Users.get_user!(id)\n    render(conn, :show, user: user)\n  end",
+              "line": 62
+            },
+            {
+              "controllerModule": "KaneIranaiMonorepoWeb.UserController",
+              "controllerFile": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/user_controller.ex",
+              "action": "current_user",
+              "templateName": "user: conn.assigns",
+              "templateFormat": "user",
+              "assigns": [],
+              "assignsWithTypes": [],
+              "actionBody": "  def current_user(conn, %{}) do\n    conn\n    |> put_status(:ok)\n    |> render(:show, user: conn.assigns.user)\n  end",
+              "line": 68
+            },
+            {
+              "controllerModule": "KaneIranaiMonorepoWeb.UserController",
+              "controllerFile": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/user_controller.ex",
+              "action": "update",
+              "templateName": "show",
+              "assigns": [
+                "user"
+              ],
+              "assignsWithTypes": [
+                {
+                  "name": "user",
+                  "variableName": "user"
+                }
+              ],
+              "actionBody": "  def update(conn, %{\"current_password\" => current_password, \"user\" => user_params}) do\n    case Guardian.validate_password(conn.assigns.user, current_password) do\n      true ->\n        {:ok, %User{} = user} = Users.update_user(conn.assigns.user, user_params)\n        render(conn, :show, user: user)\n      false -> raise ErrorResponse.Unathorized, message: \"Password incorrect\"\n    end\n  end",
+              "line": 76
             }
           ]
         ]
       ],
-      "templateSummaries": [
-        [
-          "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/page_html/home.html.heex",
-          {
-            "templatePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/page_html/home.html.heex",
-            "assignSources": {},
-            "controllers": [
-              {
-                "controllerModule": "KaneIranaiMonorepoWeb.PageController",
-                "controllerFile": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/page_controller.ex",
-                "action": "home",
-                "templateName": "home",
-                "assigns": [],
-                "assignsWithTypes": [],
-                "actionBody": "  def home(conn, _params) do\n    render(conn, :home)\n  end",
-                "line": 5,
-                "templatePath": "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/page_html/home.html.heex"
-              }
-            ]
-          }
-        ]
-      ],
+      "templateSummaries": [],
       "fileHashes": {
-        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/page_controller.ex": "167cc5ba088a389f1dd54c23cd20652c7b4e0143"
+        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/budget_plan_controller.ex": "05c51f6e37fa986592490490862310cd2b1c8223",
+        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/default_controller.ex": "f01a0ccb296f7e74009e761490ba0fd5c63b84ce",
+        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/fallback_controller.ex": "259cd97377a849e9f2484fdbcbb5264ee38ad7e8",
+        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/page_controller.ex": "569aa643f3fcd3b179d3d34919a035de86114bd3",
+        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/redirect_controller.ex": "3d54eacd278f15c80b1a2bbf1e88629d367f69c5",
+        "/home/kvato/projects/kane_iranai_monorepo/lib/kane_iranai_monorepo_web/controllers/user_controller.ex": "e940535b40e668a379461976acd37b0ed1ca68be"
       },
       "workspaceRoot": "/home/kvato/projects/kane_iranai_monorepo"
     },

@@ -29,6 +29,8 @@ defmodule KaneIranaiMonorepoWeb.Router do
 
     post "/users/create", UserController, :create
     post "/users/sign_in", UserController, :sign_in
+
+    get "/not-found", NotFoundController, :index
   end
 
   scope "/", KaneIranaiMonorepoWeb do

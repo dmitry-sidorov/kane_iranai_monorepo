@@ -14,6 +14,10 @@ defmodule KaneIranaiMonorepoWeb.UserController do
     render(conn, :index, users: users)
   end
 
+  def login(conn, _params) do
+    render_inertia(conn, "LoginPage")
+  end
+
   def create(conn, %{"user" => user_params}) do
     case Users.create_user(user_params, :with_categories) do
       {:ok, %User{} = user} -> authorize_user(conn, user.email, user_params["hash_password"])
@@ -25,13 +29,31 @@ defmodule KaneIranaiMonorepoWeb.UserController do
     authorize_user(conn, email, password)
   end
 
+"""
+  {:ok, user} ->
+  conn
+  |> put_flash(:success, "Welcome back!")
+  |> put_session(:user_id, user.id)
+  |> redirect(to: ~p"/")
+
+  {:error, message} ->
+    conn
+    |> put_flash(:error, message)
+    |> redirect(to: ~p"/login")
+"""
+
+
   defp authorize_user(conn, email, password) do
     case Guardian.authenticate(email, password) do
       {:ok, user, token} ->
         conn
-        |> Plug.Conn.put_session(:user_id, user.id)
-        |> put_status(:ok)
-        |> render(:user_token, %{user: user, token: token})
+          |> put_flash(:success, "Welcome back!")
+          |> put_session(:user_id, user.id)
+          |> redirect(to: ~p"/plans")
+        # |> Plug.Conn.put_session(:user_id, user.id)
+        # |> put_status(:ok)
+        # |> render(:user_token, %{user: user, token: token})
+      # {:error, :unathorized} -> raise ErrorResponse.Unathorized, message: "Email or password incorrect!"
       {:error, :unathorized} -> raise ErrorResponse.Unathorized, message: "Email or password incorrect!"
     end
   end

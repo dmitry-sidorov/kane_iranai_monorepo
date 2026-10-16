@@ -26,6 +26,7 @@ defmodule KaneIranaiMonorepoWeb.Router do
   scope "/", KaneIranaiMonorepoWeb do
     pipe_through [:browser]
     get "/", PageController, :home
+    get "/users/login", UserController, :login
 
     post "/users/create", UserController, :create
     post "/users/sign_in", UserController, :sign_in

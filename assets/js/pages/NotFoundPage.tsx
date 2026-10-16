@@ -4,7 +4,7 @@ export const NotFoundPage = () => {
   return <Center h={500}>
     <Image
       radius="md"
-      src="/images/not-found.jpg"
+      src="images/not-found.jpg"
       alt="Not Found"
       h={400}
       w={600}
